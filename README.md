@@ -1,46 +1,28 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React application with micro front end architecture
 
-## Available Scripts
+This is a demonstration project to show multiple micro application developed in different frameworks`(like React,Angular,Vue,Svelte)` can exist inside same application.Thanks to Webpack 5 module federation
 
-In the project directory, you can run:
+## components
 
-### `npm start`
+### App - 
+Its a React application developed using create react app and acting as shell(Container) application which renders small micro application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Header -
+Its a React application developed using create react app and acting as micro application which renders header of the application
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Left sidebar -
+Its an Angular application developed using angular cli and acting as micro application which renders left sidebar of the application
 
-### `npm test`
+### Right sidebar -
+Its a Vue application developed using vue cli and acting as micro application which renders right sidebar of the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Footer -
+Its a Svelte application developed using svelte webpack template and acting as micro application which renders footer of the application
 
-### `npm run build`
+### How to run the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Go to each folder(app,header,left-sidebar,right-sidebar,footer) and run `npm start`
+- Open browser and type `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1440" alt="Screenshot 2022-02-07 at 1 24 51 AM" src="https://user-images.githubusercontent.com/12604444/152698973-ded96d4a-1aa3-4764-8012-28bf5e50d4cc.png">
