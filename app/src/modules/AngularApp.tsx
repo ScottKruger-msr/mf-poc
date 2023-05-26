@@ -5,7 +5,7 @@ import "./AngularApp.css";
 const AngularAppModule = () => {
   const ref = useRef(null);
   useEffect(() => {
-    mount();  
+    mount(ref.current);  
   }, []);   
   return <div className="angular-app-module"><app-root></app-root></div>;
 };
