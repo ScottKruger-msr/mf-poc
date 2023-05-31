@@ -10,7 +10,7 @@ sharedMappings.register(
 
 module.exports = {
   output: {
-    uniqueName: "leftSidebar",
+    uniqueName: "angularApp",
     publicPath: "auto",
     scriptType:'text/javascript'
   },

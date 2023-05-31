@@ -1,7 +1,4 @@
 import './App.css';
-// import ReactApp from "./modules/ReactApp";
-// import AngularApp from './modules/AngularApp';
-import {ReactComponent as ReactLogo} from "./logo.svg";
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './modules/NavBar';
 import { Suspense, lazy } from 'react';

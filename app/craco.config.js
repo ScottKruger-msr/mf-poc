@@ -14,8 +14,6 @@ module.exports = {
                       remotes: {
                         reactapp: "reactapp@http://localhost:3001/remoteEntry.js",
                         angularApp:"angularApp@http://localhost:3002/remoteEntry.js",
-                        // rightSidebar:"rightSidebar@http://localhost:3003/remoteEntry.js",
-                        // footer: "footer@http://localhost:3004/remoteEntry.js",
                       },
                       shared:{
                           ...deps,
